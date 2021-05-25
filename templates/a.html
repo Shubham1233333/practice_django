@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about</title>
+  <style>
+    #shu {
+      color: chartreuse;
+
+
+    }
+
+    #shm {
+      color: black;
+      padding: 20;
+      background-color: green;
+      border: 2px solid red
+    }
+
+   
+    
+
+  
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <img src="https://source.unsplash.com/collection/190727/1200x500">
+
+
+  </div>
+
+  <h1 id="shu">about make easy :</h1>
+  <p id="shm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis, perferendis explicabo quo quam
+    consequatur expedita. Corrupti esse sit, reprehenderit asperiores
+    ipsam qui tenetur assumenda neque ratione ipsum nemo nam praesentium corporis
+    dolore quisquam provident soluta dolores nulla velit aut autem nesciunt ex, error
+    dolorum. Tempora molestias nostrum cumque perspiciatis? ipsum dolor sit amet consectetur
+    adipisicing elit. Dicta optio quidem soluta provident vero beatae sequi tenetur, dolorem corrupti
+    labore reiciendis animi, atque modi commodi quis illo, obcaecati nisi consectetur.</p>
+  <button class="button">contact</button>
+  <link rel="stylesheet" href="styles.css">
+  <a href="https://en.wikipedia.org/wiki/Education" class='ln'>read more</a>
+  <h2 class='df'>contact us :-</h2>
+  <form method="post" action="/contact">
+    {% csrf_token %}
+    <div class="form-group">
+
+      <label form="exampleFormControlInput1">name</label>
+      <input type="name" class="form-control" id="name" name='name' placeholder ="enetr your name">
+    </div>
+    <div class="form-group">
+      <label form="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="email" name=email placeholder="enter email">
+
+    </div>
+    <div class="form-group">
+      <label form="exampleFormControlInput1">phone no:</label>
+      <input type="phone" class="form-control" id="phone"  name='phone' placeholder="+9100000000">
+
+    
+    <div class="form-group">
+
+    <button type="button" class="btn btn-primary" name='text'>submit</button>
+  </form>
+
+
+</body>
+
+    <head>
+
+</html>
